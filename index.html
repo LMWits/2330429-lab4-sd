@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <label> Please enter your country </label>
+        <br>
+        <input id = "instruct" type= "text">
+
+        <button onclick ="fetchData()" > Submit </button>
+
+        <section id = country-info>
+            <h1>Country Information </h1>
+
+            <br>
+
+            <ul>
+
+                <li id= "capital" ></li>
+                <li id= "pop" ></li>
+                <li id= "reg" ></li>
+                <li> Flag: </li>
+                <img src="" id = "srcFlag" >
+                
+            </ul>
+
+        </section>
+
+        <section id = bordering-countries>
+            <h1> Bordering Countries </h1>
+
+            <ul id = "borders">
+
+            </ul>
+        </section>
+
+        <script src = script.js></script>
+    </body>
+</html>
